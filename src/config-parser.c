@@ -359,8 +359,19 @@ config_handle_key_subtag(MBKeyboardConfigState *state,
       if (val[6] != '/')
 	{
 	  /* Relative, rather than absolute path, try pkddatadir and home */
-	  char buf[512];
-	  snprintf(buf, 512, "%s/%s", PKGDATADIR, &val[6]);
+	  char buf[512], path[512], *s;
+	  /* Try MB_KBD_CONFIG env variable */
+	  if (getenv("MB_KBD_CONFIG"))
+          {
+            snprintf(path, 512, "%s", getenv("MB_KBD_CONFIG"));
+            if ((s = strrchr(path, '/')) != NULL)
+            {
+              *s = '\0';
+              snprintf(buf, 512, "%s/%s", path, &val[6]);
+            }
+          }
+	  if (!util_file_readable(buf))
+	    snprintf(buf, 512, "%s/%s", PKGDATADIR, &val[6]);
 
 	  if (!util_file_readable(buf))
 	    snprintf(buf, 512, "%s/.matchbox/%s", getenv("HOME"), &val[6]);
