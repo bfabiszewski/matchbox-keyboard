@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/matchbox/!svn/ver/1800/trunk/matchbox-keyboard/gtk-im
+END
+im-protocol.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/matchbox/!svn/ver/1800/trunk/matchbox-keyboard/gtk-im/im-protocol.c
+END
+im-context.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1800/trunk/matchbox-keyboard/gtk-im/im-context.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/matchbox/!svn/ver/1736/trunk/matchbox-keyboard/gtk-im/Makefile.am
+END
+im-module.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/matchbox/!svn/ver/1800/trunk/matchbox-keyboard/gtk-im/im-module.c
+END
+im-protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/matchbox/!svn/ver/1800/trunk/matchbox-keyboard/gtk-im/im-protocol.h
+END
+im-context.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1800/trunk/matchbox-keyboard/gtk-im/im-context.h
+END

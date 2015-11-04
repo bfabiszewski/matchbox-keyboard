@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/matchbox/!svn/ver/2075/trunk/matchbox-keyboard/src
+END
+matchbox-keyboard-ui-cairo-backend.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/matchbox-keyboard-ui-cairo-backend.c
+END
+config-parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1362/trunk/matchbox-keyboard/src/config-parser.c
+END
+matchbox-keyboard-remote.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1736/trunk/matchbox-keyboard/src/matchbox-keyboard-remote.h
+END
+matchbox-keyboard-ui-xft-backend.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/1341/trunk/matchbox-keyboard/src/matchbox-keyboard-ui-xft-backend.c
+END
+matchbox-keyboard-ui-cairo-backend.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/matchbox-keyboard-ui-cairo-backend.h
+END
+matchbox-keyboard.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1543/trunk/matchbox-keyboard/src/matchbox-keyboard.c
+END
+matchbox-keyboard-xembed.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/matchbox-keyboard-xembed.c
+END
+matchbox-keyboard-ui-xft-backend.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/matchbox-keyboard-ui-xft-backend.h
+END
+matchbox-keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1736/trunk/matchbox-keyboard/src/matchbox-keyboard.h
+END
+matchbox-keyboard-row.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/matchbox-keyboard-row.c
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/util.c
+END
+matchbox-keyboard-layout.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1266/trunk/matchbox-keyboard/src/matchbox-keyboard-layout.c
+END
+matchbox-keyboard-ui.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/matchbox/!svn/ver/1910/trunk/matchbox-keyboard/src/matchbox-keyboard-ui.c
+END
+matchbox-keyboard-defs.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/matchbox/!svn/ver/1099/trunk/matchbox-keyboard/src/matchbox-keyboard-defs.c
+END
+matchbox-keyboard-image.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/matchbox/!svn/ver/2075/trunk/matchbox-keyboard/src/matchbox-keyboard-image.c
+END
+util-list.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/1125/trunk/matchbox-keyboard/src/util-list.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/1736/trunk/matchbox-keyboard/src/Makefile.am
+END
+matchbox-keyboard-key.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/matchbox/!svn/ver/1675/trunk/matchbox-keyboard/src/matchbox-keyboard-key.c
+END
+util-list.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/1099/trunk/matchbox-keyboard/src/util-list.h
+END
+matchbox-keyboard-remote.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1736/trunk/matchbox-keyboard/src/matchbox-keyboard-remote.c
+END

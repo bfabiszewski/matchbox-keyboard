@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/matchbox/!svn/ver/1739/trunk/matchbox-keyboard/layouts
+END
+keyboard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/matchbox/!svn/ver/1739/trunk/matchbox-keyboard/layouts/keyboard.xml
+END
+keyboard-numpad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/matchbox/!svn/ver/1314/trunk/matchbox-keyboard/layouts/keyboard-numpad.xml
+END
+keyboard-dvorak.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/matchbox/!svn/ver/1183/trunk/matchbox-keyboard/layouts/keyboard-dvorak.xml
+END
+keyboard-ru.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1362/trunk/matchbox-keyboard/layouts/keyboard-ru.xml
+END
+keyboard-us.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1318/trunk/matchbox-keyboard/layouts/keyboard-us.xml
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1559/trunk/matchbox-keyboard/layouts/Makefile.am
+END
+keyboard-fi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1265/trunk/matchbox-keyboard/layouts/keyboard-fi.xml
+END
+keyboard-extended.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/matchbox/!svn/ver/1131/trunk/matchbox-keyboard/layouts/keyboard-extended.xml
+END

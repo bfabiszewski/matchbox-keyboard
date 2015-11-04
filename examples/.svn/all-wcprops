@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/matchbox/!svn/ver/1267/trunk/matchbox-keyboard/examples
+END
+matchbox-keyboard-gtk-embed.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/1267/trunk/matchbox-keyboard/examples/matchbox-keyboard-gtk-embed.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/matchbox/!svn/ver/1267/trunk/matchbox-keyboard/examples/Makefile.am
+END
