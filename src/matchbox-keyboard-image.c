@@ -46,7 +46,7 @@ png_file_load (const char *file,
   if ((fd = fopen( file, "rb" )) == NULL) return NULL;
 
   fread( header, 1, 8, fd );
-  if ( ! png_check_sig( header, 8 ) ) 
+  if ( png_sig_cmp(header, 0, 8) != 0 )
     {
       fclose(fd);
       return NULL;
@@ -65,7 +65,7 @@ png_file_load (const char *file,
     return NULL;
   }
 
-  if ( setjmp( png_ptr->jmpbuf ) ) {
+  if ( setjmp(png_jmpbuf(png_ptr)) ) {
     png_destroy_read_struct( &png_ptr, &info_ptr, NULL);
     fclose(fd);
     return NULL;
