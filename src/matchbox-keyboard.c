@@ -45,11 +45,11 @@ mb_kbd_new (int argc, char **argv)
   kb = util_malloc0(sizeof(MBKeyboard));
 
   kb->key_border = 1;
-  kb->key_pad    = 2;
+  kb->key_pad    = 0;
   kb->key_margin = 0;
 
-  kb->col_spacing = 5;
-  kb->row_spacing = 5;
+  kb->col_spacing = 0;
+  kb->row_spacing = 0;
 
   kb->font_family  = strdup("sans");
   kb->font_pt_size = 5;
