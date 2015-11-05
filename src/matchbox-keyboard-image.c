@@ -46,7 +46,11 @@ png_file_load (const char *file,
   if ((fd = fopen( file, "rb" )) == NULL) return NULL;
 
   fread( header, 1, 8, fd );
-  if ( ! png_check_sig( header, 8 ) ) 
+#if defined(PNG_LIBPNG_VER_MAJOR) && PNG_LIBPNG_VER_MAJOR >= 1 && PNG_LIBPNG_VER_MINOR >= 4
+  if ( png_sig_cmp(header, 0, 8) != 0 )
+#else
+  if ( ! png_check_sig( header, 8 ) )
+#endif
     {
       fclose(fd);
       return NULL;
@@ -65,7 +69,11 @@ png_file_load (const char *file,
     return NULL;
   }
 
+#if defined(PNG_LIBPNG_VER_MAJOR) && PNG_LIBPNG_VER_MAJOR >= 1 && PNG_LIBPNG_VER_MINOR >= 4
+  if ( setjmp(png_jmpbuf(png_ptr)) ) {
+#else
   if ( setjmp( png_ptr->jmpbuf ) ) {
+#endif
     png_destroy_read_struct( &png_ptr, &info_ptr, NULL);
     fclose(fd);
     return NULL;
